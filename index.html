@@ -173,7 +173,6 @@
 	  fetch('https://www.googleapis.com/youtube/v3/search?key=AIzaSyCVPLo2AmXMH4QJN085E62ugLxfs03GZaE&part=snippet&maxResults=50&channelId=UC7iH-vb74kKzmfG56q9Y3eQ')
 	    .then(response => response.json())
 		.then(json => {
-		  console.log(json)
 		  let conteudos = '';
 		  json.items.forEach(item => {
 		      let url = ''
