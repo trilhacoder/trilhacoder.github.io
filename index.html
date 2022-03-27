@@ -174,7 +174,7 @@
 	    .then(response => response.json())
 		.then(json => {
 		  let conteudos = '';
-		  json.items.forEach(item => {
+		  json.items.sort((i1, i2) => new Date(i1.snippet.publishTime) > new Date(i2.snippet.publishTime) ? 1 : new Date(i1.snippet.publishTime) < new Date(i2.snippet.publishTime) ? -1 : 0).forEach(item => {
 		      let url = ''
 			  if ( item.id.kind == 'youtube#playlist' ) {
 				url = `https://www.youtube.com/playlist?list=${item.id.playlistId}`
