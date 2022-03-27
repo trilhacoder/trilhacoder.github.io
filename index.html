@@ -194,7 +194,7 @@
 						<div class="btn-group">
 						  <a class="btn btn-danger my-2" href="${url}">Assistir</a>						  
 						</div>
-						<small class="text-muted">${item.snippet.publishTime}</small>
+						<small class="text-muted">${new Date(item.snippet.publishTime).toLocaleDateString('pt-BR', {timeZone: 'UTC'})}</small>
 					  </div>
 					</div>
 				  </div>
