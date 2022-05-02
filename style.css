@@ -122,7 +122,6 @@ h1 {
 
 .section-home h1 {
     font-size: clamp(1rem, 1rem + 3vw, 3rem);
-    width: 450px;
 }
 
 .section-home p {
@@ -324,10 +323,6 @@ a.negativa {
         max-width: 400px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .home-wrapper {
-        width: 450px;
     }
 
     /* contato */
