@@ -288,15 +288,17 @@ a.negativa {
     background-color: #dc3545;
     color: var(--color-gray-ultralight);
     margin-right: 10px;
+    width: 200px;
 }
 
 .btn-youtube:hover {
-    background-color: #aa2835;
+    background-color: #aa2835;    
 }
 
 .btn-github {
     background-color: #212529;
     color: var(--color-gray-ultralight);
+    width: 200px;
 }
 
 .btn-github:hover {
@@ -395,4 +397,15 @@ a.negativa {
     .section-sobre .sobre-descricao p {
         padding-left: 0;
     }        
+}
+
+@media (max-width: 460px) {
+    .home-wrapper {
+        justify-content: center;
+    }
+
+    .btn-youtube {
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }
