@@ -304,10 +304,6 @@ a.negativa {
     width: 200px;
 }
 
-.btn-github:hover {
-    background-color: #131518;
-}
-
 .footer {
     background-color: var(--color-gray-ultradark);
     color: var(--color-gray-ultralight);
