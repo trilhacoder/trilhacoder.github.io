@@ -292,7 +292,7 @@ a.negativa {
     background-color: #dc3545;
     color: var(--color-gray-ultralight);
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
 }
 
 .btn-youtube:hover {
@@ -301,7 +301,7 @@ a.negativa {
 
 .btn-whatsapp {
     color: green;
-    width: 200px;
+    width: 250px;
 }
 
 .footer {
