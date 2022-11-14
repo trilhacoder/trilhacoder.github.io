@@ -20,6 +20,9 @@
         <script src="assets/particles.js-master/particles.min.js"></script>
 
         <script>
+            if (window.location.pathname == 'whatsapp') {
+                window.location.href = 'https://chat.whatsapp.com/LkdFEoOZPfjEYtFeBpfozT'
+            }
             /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
             particlesJS.load('particles-js', 'assets/particles.js-master/particles.json', function() {
                 console.log('callback - particles.js config loaded');
