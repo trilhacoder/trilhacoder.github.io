@@ -60,12 +60,13 @@ h1 {
 }
 
 .logo {
-    width: 100px;    
+    width: 100px;
 }
 
 .logo img {
     width: 100px;
     z-index: 10;
+    border-radius: 50%;
 }
 
 .header .header-wrapper {
@@ -108,7 +109,6 @@ h1 {
 
 .section-home {
     background-color: #0033CC;
-    height: calc(100vh - 100px);
     color: #ffffff;
     display: flex;
     position: relative;
@@ -131,10 +131,14 @@ h1 {
 }
 
 .section-home img {
-    max-width: 600px;
-    margin-top: 50px;
-    z-index: 0;
+    max-width: 750px;
     width: 100%;
+    z-index: 0;
+    transform: scale(1, 1.2);
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .section-home .container {
@@ -146,11 +150,8 @@ h1 {
     padding: 40px 0;
 }
 
-.section-videos .ver-mais {
-    text-align: center;
-    display: block;
-    color: var(--color-secondary);
-    margin-top: 30px;
+.section-videos .descricao {
+    margin-bottom: 30px;
 }
 
 a.negativa {
@@ -299,9 +300,13 @@ a.negativa {
     background-color: #aa2835;    
 }
 
-.btn-whatsapp {
-    color: green;
+.btn-discord {
+    color: #4f64f5;
     width: 210px;
+}
+
+.btn-discord:hover {
+    background-color: #d6d9f0;
 }
 
 .footer {
