@@ -1,5 +1,5 @@
-## Seja bem vindo ao site do TrilhaFront!
+## Seja bem vindo ao site do TrilhaCoder!
 
-Tenha acesso a todos os conteúdos do TrilhaFront em um único lugar: www.trilhafront.com.br
+Tenha acesso a todos os conteúdos do TrilhaCoder em um único lugar: www.trilhacoder.com.br
 
-[![TrilhaFront](assets/print.png)](https://trilhafront.com.br)
+[![TrilhaCoder](assets/print.png)](https://trilhacoder.com.br)
