@@ -119,6 +119,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .section-home h1 {
@@ -128,7 +129,7 @@ h1 {
 .section-home p {
     font-size: 18px;
     margin: 25px 0;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 .section-home img {
