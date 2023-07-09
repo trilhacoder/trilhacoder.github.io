@@ -204,26 +204,12 @@ a.negativa {
     padding: 40px 0 ;
 }
 
-.section-sobre iframe {
-    aspect-ratio: 16/9;
+.section-sobre img {
     width: 100%;
 }
 
-.section-sobre .sobre-descricao {
-    display: inline-block;
-    padding-left: 50px;
-    vertical-align: top;
-    width: 45%;
-}
-
-.section-sobre .wrapper-sobre {
-    display: inline-block;
-    vertical-align: top;
-    width: 45%;
-}
-
 .section-sobre .sobre-descricao p {    
-    padding-left: 50px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
