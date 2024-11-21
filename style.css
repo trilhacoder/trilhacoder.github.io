@@ -144,12 +144,12 @@ h1 {
     z-index: 1;
 }
 
-.section-videos h2 {
+.section-videos h2, .section-apps h2 {
     font-size: clamp(1rem, 1rem + 3vw, 2.5rem);
     padding: 40px 0;
 }
 
-.section-videos .descricao {
+.section-videos .descricao, .section-apps .descricao {
     margin-bottom: 30px;
 }
 
@@ -338,7 +338,7 @@ a.negativa {
         text-align: center;
     }
 
-    .section-videos h2 {
+    .section-videos h2, .section-apps h2 {
         text-align: center;
     }
 
